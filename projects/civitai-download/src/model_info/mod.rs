@@ -34,9 +34,7 @@ impl ModelInfo {
             None => "",
         }
     }
-    /// Download the primary model
-    ///
-    /// It creates a new download task and returns a handle to it.
+    /// Download the primary model, it creates a new download task
     ///
     /// Primary model is the latest model in the list
     pub fn download(&self, local: &str) -> Result<Download, trauma::Error> {
