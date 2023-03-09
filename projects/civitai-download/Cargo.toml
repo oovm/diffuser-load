@@ -1,0 +1,21 @@
+[package]
+name = "civitai"
+version = "0.0.0"
+authors = ["Aster <192607617@qq.com>"]
+description = "Load diffusers' weight from file."
+keywords = ["diffusers"]
+categories = ["machine-learning::diffusers"]
+repository = "https://github.com/oovm/sub_projects"
+documentation = "https://docs.rs/sub_projects"
+readme = "Readme.md"
+license = "MPL-2.0"
+edition = "2021"
+
+[dependencies]
+curl = "0.4.1"
+
+
+[dev-dependencies]
+
+[features]
+default = []
